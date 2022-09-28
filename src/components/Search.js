@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Search() {
+  const [filter, setFilter] = useState(" ");
+
   return (
     <div className="ui large fluid icon input">
       <input
